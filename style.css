@@ -1,0 +1,9 @@
+/* Quando o usuário acerta, irá aparecer uma mensagem verde */
+.verde {
+    color: #008000;
+}
+
+/* Quando o usuário erra, irá aparecer uma mensagem vermelha */
+.vermelho {
+    color: #ff0000;
+}

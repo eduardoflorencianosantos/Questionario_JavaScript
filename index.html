@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="inclui_nome()">
+    <!-- Parágrafo -->
+    <p id="marcacao_nome"></p>
+    <!-- Início do <form> -->
+    <form>
+        <!-- Questão -->
+        <h3>1. Quanto é 2 + 5?</h3>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_1" value="correta"> 7 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_1" value="errada"> 16 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_1" value="errada"> 8 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_1" value="errada"> 10 <br>
+        <!-- Parágrafo -->
+        <p id="resposta_correta_1" class="verde"></p>
+        <p id="resposta_errada_1" class="vermelho"></p><br>
+
+        <!-- Questão -->
+        <h3>2. Quanto é 4 + 9?</h3>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_2" value="correta"> 13 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_2" value="errada"> 20 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_2" value="errada"> 9 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_2" value="errada"> 19 <br>
+        <!-- Parágrafo -->
+        <p id="resposta_correta_2" class="verde"></p>
+        <p id="resposta_errada_2" class="vermelho"></p><br>
+
+        <!-- Questão -->
+        <h3>3. Quanto é 5 + 6?</h3>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_3" value="correta"> 11 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_3" value="errada"> 26 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_3" value="errada"> 14 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_3" value="errada"> 5 <br>
+        <!-- Parágrafo -->
+        <p id="resposta_correta_3" class="verde"></p>
+        <p id="resposta_errada_3" class="vermelho"></p><br>
+
+        <!-- Questão -->
+        <h3>4. Quanto é 8 + 7?</h3>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_4" value="correta"> 15 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_4" value="errada"> 4 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_4" value="errada"> 19 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_4" value="errada"> 20 <br>
+        <!-- Parágrafo -->
+        <p id="resposta_correta_4" class="verde"></p>
+        <p id="resposta_errada_4" class="vermelho"></p><br>
+
+        <!-- Questão -->
+        <h3>5. Quanto é 4 + 4?</h3>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_5" value="correta"> 8 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_5" value="errada"> 9 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_5" value="errada"> 12 <br>
+        <!-- Alternativa -->
+        <input type="radio" name="questao_5" value="errada"> 15 <br>
+        <!-- Parágrafo -->
+        <p id="resposta_correta_5" class="verde"></p>
+        <p id="resposta_errada_5" class="vermelho"></p><br>
+
+        <!-- Quantidade de acertos -->
+        <p id="quantidade_acertos"></p> <br>
+        <!-- Botão para descobrir o resultado -->
+        <button type="button" onclick="funcao_resposta()">Enviar</button>
+    </form>
+    <!-- Fim do <form> -->
+    <!-- Uso do JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
